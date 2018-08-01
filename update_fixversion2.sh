@@ -9,7 +9,7 @@ IFS=' ' read -r -a JIRA_ISSUES <<< $JIRA_ISSUES_STRING
 RELEASE_VERSION=$1
 
 #JIRA_URL="https://jira1-eu1.moneysupermarketgroup.com/rest/api/2/issue/"
-JIRA_URL="http://C02R9A1GG8WN:2990/jira/rest/api/2/issue/"
+JIRA_URL="http://192.168.0.24:2990/jira/rest/api/2/issue/"
 API_USER="api"
 API_PASSWORD="password"
 
